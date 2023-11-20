@@ -24,9 +24,9 @@
 
         default_layer {
             bindings = <
-            &kp TAB   &kp Q &kp W &kp E &kp R &kp T                                           &kp Z &kp U  &kp I     &kp O   &kp P    &kp LS(N6)
+            &kp TAB   &kp Q &kp W &kp E &kp R &kp T                                           &kp Z &kp U  &kp I     &kp O   &kp P    &kp LA(LS(N6))
             &kp LSHFT &kp A &kp S &kp D &kp F &kp G                                           &kp H &kp J  &kp K     &kp L   &kp BSLH  &kp RBKT
-            &kp LCTRL  &kp Y &kp X &kp C &kp V &kp B &kp NUBS &kp ESC         &mo 5  &kp EQUAL &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+            &kp LCTRL &kp Y &kp X &kp C &kp V &kp B &kp NUBS &kp ESC         &mo 5  &kp EQUAL &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
                             &mo 3 &kp LALT &kp LCMD &kp SPACE &mo 2           &mo 1  &kp RET &kp BSPC &kp RALT &mo 4
             >;
 
@@ -58,9 +58,9 @@
         };
         right_layer {
             bindings = <
-            &trans &trans &trans &kp BACKSLASH &kp KP_LPAR &kp KP_RPAR                      &trans &trans &trans &trans &trans &trans 
-            &trans &trans &trans &kp TILDE &kp LEFT_BRACKET &kp RIGHT_BRACKET               &trans &trans &trans &trans &trans &trans 
-            &trans &trans &trans &kp PIPE &kp LEFT_BRACE &kp RIGHT_BRACE  &trans &trans     &trans &trans &trans &trans &trans &trans &trans &trans 
+            &trans &trans &trans &kp RA(MINUS) &kp KP_LPAR &kp KP_RPAR                                &trans &trans &trans &trans &trans &trans 
+            &trans &trans &trans &kp RA(RBKT) &kp RA(N8) &kp RA(N9)                                   &trans &trans &trans &trans &trans &trans 
+            &trans &trans &trans &kp RA(NUBS) &kp RA(N7) &kp RA(N0) &kp RA(Q) &trans     &trans &trans &trans &trans &trans &trans &trans &trans 
                                 &trans &trans &trans &trans &trans         &trans &trans &trans &trans &trans
             >;
         };
