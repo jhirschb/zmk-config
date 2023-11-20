@@ -34,7 +34,7 @@
         upper_layer {
             bindings = <
             &kp ESC  &trans &trans &trans &trans &trans                                    &trans &kp LEFT_BRACE  &trans   &kp COLON  &trans   &kp BSLH
-            &trans   &kp DOUBLE_QUOTES  &kp MINUS &trans &trans &trans                                    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans &trans
+            &trans   &kp DOUBLE_QUOTES  &kp MINUS &trans &trans &trans                     &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans &trans
             &trans   &trans &trans &trans &trans &trans &trans &trans      &trans  &trans  &kp HOME &kp INSERT &kp DELETE &kp END  &trans &trans
                                   &trans &trans &trans &trans &trans        &trans  &trans  &trans &trans &trans
             >;
@@ -50,7 +50,7 @@
         };
         left_layer {
             bindings = <
-            &trans &trans &trans &trans &trans &trans                                    &kp KP_LPAR &kp KP_RPAR  &kp BACKSLASH   &trans &trans &trans
+            &trans &trans &trans &trans &trans &trans                                    &kp LSHIFT(N9) &kp LSHIFT(N0)  &kp LALT(LSHIFT(7))   &trans &trans &trans
             &trans &trans &trans &trans &trans &trans                                    &kp LEFT_BRACKET &kp RIGHT_BRACKET  &kp TILDE     &trans &trans &trans
             &trans &trans &trans &trans &trans &trans &trans &trans       &trans  &trans &kp LEFT_BRACE &kp RIGHT_BRACE  &kp PIPE &trans &trans &trans
                                 &trans &trans &trans &trans &trans         &trans &trans &trans &trans &trans
