@@ -50,7 +50,7 @@
         };
         left_layer {
             bindings = <
-            &trans &trans &trans &trans &trans &trans                                    &kp LSH(N9) &kp LS(N0)  &kp LA(LS(N7))   &trans &trans &trans
+            &trans &trans &trans &trans &trans &trans                                    &kp LS(N9) &kp LS(N0)  &kp LA(LS(N7))   &trans &trans &trans
             &trans &trans &trans &trans &trans &trans                                    &kp LEFT_BRACKET &kp RIGHT_BRACKET  &kp TILDE     &trans &trans &trans
             &trans &trans &trans &trans &trans &trans &trans &trans       &trans  &trans &kp LEFT_BRACE &kp RIGHT_BRACE  &kp PIPE &trans &trans &trans
                                 &trans &trans &trans &trans &trans         &trans &trans &trans &trans &trans
